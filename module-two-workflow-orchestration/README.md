@@ -10,15 +10,15 @@
 
 ### Q3. How many rows are there for the Yellow Taxi data for the year 2020?
 
-- Answer: 24,648,499
+- Answer: 24.648.499
   
 ### Q4. How many rows are there for the Green Taxi data for the year 2020?
 
-- Answer: 1,734,051
+- Answer: 1.734.051
 
 ### Q5. How many rows are there for the Yellow Taxi data for March 2021?
 
-- Answer: 1,925,152
+- Answer: 1.925.152
 
 ### Q6. How would you configure the timezone to New York in a Schedule trigger?
 
