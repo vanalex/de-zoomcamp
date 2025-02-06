@@ -10,13 +10,31 @@
 
 ### Q3. How many rows are there for the Yellow Taxi data for the year 2020?
 
+```sh
+    SELECT COUNT(*) AS row_count
+    FROM yellow_tripdata
+    WHERE filename LIKE 'yellow_tripdata_2020-%.csv'
+```
 - Answer: 24.648.499
   
 ### Q4. How many rows are there for the Green Taxi data for the year 2020?
 
+```sh
+  SELECT COUNT(*) AS row_count
+  FROM green_tripdata
+  WHERE filename LIKE 'green_tripdata_2020-%.csv'
+```
+
 - Answer: 1.734.051
 
 ### Q5. How many rows are there for the Yellow Taxi data for March 2021?
+
+```sh
+  SELECT COUNT(*) AS row_count
+  FROM yellow_tripdata
+  WHERE filename = 'yellow_tripdata_2021-03.csv'
+```
+
 
 - Answer: 1.925.152
 
