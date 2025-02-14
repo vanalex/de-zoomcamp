@@ -1,0 +1,15 @@
+[project]
+name = "de-zoomcamp"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.12"
+dependencies = [
+    "dlt[duckdb]>=1.6.1",
+    "numpy>=2.2.3",
+    "pandas>=2.2.3",
+    "pyarrow>=19.0.0",
+    "sqlalchemy-cratedb>=0.41.0",
+]
+
+[tool.uv.workspace]
+members = ["module-three-data-warehouse"]
